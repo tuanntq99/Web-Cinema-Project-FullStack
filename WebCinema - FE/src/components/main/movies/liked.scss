@@ -1,0 +1,30 @@
+.title-info {
+    color: var(--white);
+    h1 {
+        line-height: 25px;
+        font-size: 20px;
+        &:hover span {
+            opacity: 1;
+        }
+        span {
+            opacity: .5;
+            margin-right: 5px;
+        }
+    }
+    p {
+        opacity: .5;
+        span {
+            padding: 3px 10px;
+            background-color: #252525;
+            border-radius: 4px;
+        }
+    }
+    @media screen and (max-width: "482px") {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.title-info.home {
+    width: 100%;
+    margin: 0;
+}

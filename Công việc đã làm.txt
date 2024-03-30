@@ -1,0 +1,25 @@
+Họ và tên: Ngô Trần Quốc Tuấn
+Email: tuanhd131@gmail.com
+SĐT: 0979137027
+Khóa học: FullStack java
+
+Những việc đã làm được:
+ + ) Backend:
+- DTO, phân quyền (admin, moderator, user ) , đăng nhập, đăng ký xác nhận email bằng OTP, Quên mật khẩu gửi mã OTP qua email, reset mật khẩu nhập OTP nhận từ email, đổi mật khẩu, thay đổi thông tin cá nhân, Xác thực bằng JWT và RefreshToken, logout.
+Chức năng Admin: 
+ Thêm, Cập nhật, xóa Movie, schedule, room, cinema, user, seat, ticket, food, promotion, rankCustomer
+ Hiển thị các bộ phim nổi bật ( sắp xếp theo số lượng đặt vé)
+ Hiển thị phim theo rạp
+ Hiển thị phim theo phòng
+ Hiển thị phim theo trạng thái ghế trong phòng
+ Thống kê đồ ăn bán chạy trong 7 ngày gần nhất
+ Quản lý thông tin người dùng
+ Nâng, hạ role
+
+Chức năng user:
+ Chọn rạp --> chọn phim --> chọn phòng, chọn lịch chiếu --> chọn đồ ăn --> Thanh toán VNPay -- > Nhận thông tin xác nhận về email sau khi thanh toán thành công.
+
++ ) Frontend:
+ Đăng nhập, đăng ký tài khoản, quên mật khẩu gửi xác nhận về email, đổi mật khẩu
+ Hoàn thành cấu trúc cơ bản header, content, footer
+ Trang Home: hiển thị loạt phim nổi bật, có thể xem chi tiết từng phim

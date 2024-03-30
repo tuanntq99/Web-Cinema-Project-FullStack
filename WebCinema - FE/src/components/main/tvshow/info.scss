@@ -1,0 +1,36 @@
+.ant-drawer-body {
+    .info {
+        .border {
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+        .genres {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-bottom: 5px;
+            p {
+                border-radius: 4px;
+                padding: 2px;
+                background-color: var(--yellow);
+            }
+        }
+        .lang {
+            text-transform: capitalize;
+            margin-bottom: 5px;
+        }
+        p {
+            font-weight: 400;
+            margin-bottom: 5px;
+            span {
+                font-weight: 600;
+            }
+        }
+        .production_companies {
+            margin-top: 5px;
+        }
+        &:last-of-type {
+            border-bottom: unset;
+        }
+    }
+}

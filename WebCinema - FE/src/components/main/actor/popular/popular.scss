@@ -1,0 +1,21 @@
+$mobile: 480px;
+$tablet: 768px;
+$small-screens: 992px;
+$large-screens: 1200px;
+
+.trending.complete {
+    margin-bottom: 50px;
+}
+
+.popular-data {
+    .actor {
+        cursor: pointer;
+        overflow: hidden;
+        p {
+            background-color: var(--yellow);
+            padding: 5px;
+            color: var(--white);
+            width: 100%;
+        }
+    }
+}
